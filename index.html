@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+   <title>My first Project</title>
+</head>
+<body>
+   <form name="" action="" method="">
+      <Fieldset>
+         <legend>
+            <b>
+               Коротко о себе
+            </b>
+         </legend>
+      <label for="user_name">
+         Имя:
+      </label>
+      <input 
+         type="text" 
+         id="user_name"
+      >
+   <br/>
+   <br/>
+      <label for="user_surname">
+         Фамилия:
+      </label>
+      <input 
+         type="text" 
+         id="user_surname"
+      >
+   <br/>
+   <br/>
+      <label for="user_gender">
+         Пол:
+      </label>
+      <input 
+         type="radio" 
+         id="user_gender_male"
+         name="user_gender" 
+      >
+      <label for="user_gender_male">
+         мужской
+      </label>
+      <input 
+         type="radio" 
+         id="user_gender_female"
+         name="user_gender"  
+      >
+      <label for="user_gender_female">
+         женский
+      </label>
+   <br/>
+   <br/>
+      <label for="user_age">
+         Возраст:
+      </label> 
+      <input
+         type="text" 
+         id="user_age"
+         size="2" 
+      >
+      <label 
+         for="user_age">
+         лет
+      </label>
+      </Fieldset>
+   </form>   
+   <br/>
+   <br/>
+   <form name="" action="" method=""> 
+      <Fieldset>
+         <legend>
+            <b>
+               Подробнее о себе
+            </b>
+         </legend>
+      <input 
+         type="radio" 
+         name="gender" 
+         id="young_man"
+      >
+      <label for="young_man">
+         Молодой человек
+      </label>
+   <br/>
+      <input 
+         type="radio" 
+         name="gender" 
+         id="girl"
+      >
+      <label for="girl">
+         Девушка
+      </label>
+   <br/>
+      <input 
+         type="number" 
+         id="birth_date"
+      >
+      <label for="birth_date">
+         Дата рождения
+      </label>
+   <br/>
+      <input 
+         type="text"  
+         id="family_status"
+      >
+      <label for="family_status">
+         Семейное положение
+      </label>
+   <br/>
+      <input 
+         type="text" 
+         id="social_status"
+      >
+      <label for="social_status">
+         Социальный статус
+      </label>
+   <br/>
+      <input 
+         type="text" 
+         id="residence"
+      >
+      <label for="residence">
+         Местожительство
+      </label>
+   <br/>
+   <br/>
+      <label for="checkbox1">
+         <b>
+            Что вы обычно делаете на выходных:
+         </b>
+      </label>
+   <br/>
+   <br/>
+      <input 
+         type="checkbox"
+         id="checkbox1"
+         name="activity1"
+         value="Сплю"
+      >
+      <label for="checkbox1">
+         Сплю
+      </label>
+   <br/>
+      <input 
+         type="checkbox"
+         id="checkbox2"
+         name="activity2"
+         value="Гуляю з друзьями"
+      >
+      <label for="checkbox2">
+         Гуляю с друзьями
+      </label>
+   <br/>
+      <input 
+         type="checkbox"
+         id="checkbox3"
+         name="activity3"
+         value="Хожу на рыбалку"
+      >
+      <label for="checkbox3">
+         Хожу на рыбалку
+      </label>
+   <br/>
+      <input 
+         type="checkbox"
+         id="checkbox4"
+         name="activity4"
+         value="Граю в ігри"
+      >
+      <label for="checkbox4">
+         Играю в игры
+      </label>
+   <br/>
+   <br/>
+      <label for="site_select">
+         <b>
+            Рассказать о формах в книгах, посвященной HTML:
+         </b>
+      </label>
+   <br/>
+   <br/>
+      <select id="site_select">
+         <option value="Site frequency">
+            Site frequency
+         </option>
+      </select>
+   <br/>
+   <br/>
+      <label for="books_read">
+         <b>
+            Сколько книг вы прочитали за свою жизнь:
+         </b>
+      </label>
+   <br/>
+   <br/>
+      <input 
+         type="radio" 
+         name="books_read"
+         value="0-10"
+         id="0-10" 
+      >
+      <label for="0-10"> 
+            0-10
+      </label>
+   <br/>
+      <input 
+         type="radio" 
+         name="books_read"
+         value="11-20"
+         id="11-20" 
+      >
+      <label for="11-20"> 
+            11-20
+      </label>
+   <br/>
+      <input 
+         type="radio" 
+         name="books_read"
+         value="21-50"
+         id="21-50" 
+      >
+      <label for="21-50">
+            21-50
+      </label>
+   <br/>
+      <input 
+         type="radio" 
+         name="books_read"
+         value="50+"
+         id="50+" 
+      >
+      <label for="50+"> 
+            50+
+      </label>
+   <br/>
+   <br/>
+      <label for="comments">
+         <b>
+            Ваши коментарии:
+         </b>
+      </label>
+   <br/> 
+      <textarea 
+         rows="10" 
+         cols="45" 
+         name="comments"
+         id="comments"
+      >
+      </textarea>
+   <br/>
+   <br/>
+      <select 
+         size="3" 
+         multiple="multiple" 
+         name="hero[]"
+      >
+         <option value="Первая позиция">
+            Первая позиция
+         </option>
+         <option 
+            selected="selected"
+            value="Вторая позиция"
+         >
+            Вторая позиция 
+         </option>
+         <option value="Третья позиция">
+            Третья позиция 
+         </option>
+      </select>
+      </Fieldset>
+   </form>
+   <br/>
+   <br/>
+   <form name="" action="" method=""> 
+      <Fieldset>
+         <legend>
+            <b>
+               И в заключении
+            </b>
+         </legend>
+      <input 
+         type="text"
+         name="userName"
+         placeholder="Это поле было введено до вас" disabled
+         size="25"
+      >
+   <br/>
+   <br/>
+      <label for="user_email">
+         <b>
+            Email
+         </b>
+      </label>
+   <br/>
+      <input 
+         type="text"
+         id="user_email" 
+      >
+   <br/>
+   <br/>
+      <label for="checkbox_span">
+         <b>
+            Хотите подписаться на самую модную рассылку спама?
+         </b>
+      </label>
+   <br/>
+         <i>
+            Выберите категории
+         </i>
+   <br/>
+   <br/>
+      <input 
+         type="checkbox"
+         id="checkbox_span1"
+         name="category1"
+         value="Обрудование"
+      >
+      <label for="checkbox_span1">
+         Обрудование
+      </label>
+   <br/>
+      <input 
+         type="checkbox"
+         id="checkbox_span2"
+         name="category2"
+         value="Как приготовить обеды"
+      >
+      <label for="checkbox_span2">
+         Как приготовить обеды
+      </label> 
+   <br/>
+      <input 
+         type="checkbox"
+         id="checkbox_span3"
+         name="category3"
+         value="Заработай миллион за два дня"
+      >
+      <label for="checkbox_span3">
+         Заработай миллион за два дня
+      </label>
+   <br/>
+   <br/>
+      <label for="">
+         <b>
+            На сколько сложная задача?
+         </b>
+      </label>
+   <br/>
+   <br/>
+      <input 
+         type="radio" 
+         name="difficulty" 
+         value="easy" 
+         id="easy"  
+      >
+      <label for="easy"> 
+            Совсем нет
+      </label>
+   <br/>
+      <input 
+         type="radio" 
+         name="difficulty" 
+         value="medium" 
+         id="medium" 
+      >
+      <label for="medium"> 
+            Так себе
+      </label>
+   <br/>
+      <input 
+         type="radio" 
+         name="difficulty" 
+         value="hard" 
+         id="hard" 
+      >
+      <label for="hard"> 
+            Еле справились
+      </label>
+      </Fieldset>
+   <br/>  
+         <button>
+            Отправить
+         </button>
+   </form> 
+</body>
+</html>
